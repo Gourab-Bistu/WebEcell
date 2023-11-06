@@ -1,7 +1,7 @@
 import "./App.css";
-import Departments from "./components/Departments";
 import What from "./components/What";
 import Footer from "./components/Footer";
+import ECellComponent from "./components/ECellComponent";
 
 function App() {
   return (
@@ -9,10 +9,10 @@ function App() {
       <h1>E-CELL</h1>
       {/* <What /> */}
       <div className="content-container">
-        {/* <Departments /> */}
+        <ECellComponent/>
       </div>
       <hr/>
-      <Footer />
+      {/* <Footer /> */}
       
     </>
   );
